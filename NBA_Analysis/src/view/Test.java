@@ -17,7 +17,7 @@ public class Test {
 		// p_means playoff
 		// rsc_ means regular season career
 		// rs_ means regular season
-		features.add(new Feature("pc_gp", 3));
+		features.add(new Feature("pc_gp", 2));
 		features.add(new Feature("pc_minutes", 1));
 		
 		outlier.setFeatures(features);
