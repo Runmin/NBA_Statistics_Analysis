@@ -3,8 +3,8 @@ package model;
 public class Feature {
 	private int id;
 	private String name;
-	private int score;
-	private int weight;
+	private double score;
+	private double weight;
 	//private int ifUse;
 	public Feature(String name, int weight){
 		this.setName(name);
@@ -22,16 +22,16 @@ public class Feature {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getScore() {
+	public double getScore() {
 		return score;
 	}
-	public void setScore(int score) {
+	public void setScore(double score) {
 		this.score = score;
 	}
-	public int getWeight() {
+	public double getWeight() {
 		return weight;
 	}
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		this.weight = weight;
 	}
 	/*public int getIfUse() {

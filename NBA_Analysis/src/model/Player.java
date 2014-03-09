@@ -2,7 +2,7 @@ package model;
 
 public class Player extends Person{
 	private String position;
-	private int total_score;
+	private double total_score;
 	
 	public Player(String id, String lastname, String firstname, String position) {
 		super(id, lastname, firstname);
@@ -18,11 +18,11 @@ public class Player extends Person{
 		this.position = position;
 	}
 
-	public int getTotalScore() {
+	public double getTotalScore() {
 		return total_score;
 	}
 
-	public void setTotalScore(int total_score) {
+	public void setTotalScore(double total_score) {
 		this.total_score = total_score;
 	}
 
